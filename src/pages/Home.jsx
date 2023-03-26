@@ -14,7 +14,6 @@ function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}
-      <Header />
 
       {/*  Page content */}
       <main className="grow">
@@ -25,10 +24,7 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-        <FeaturesBlocks />
         <FeaturesZigZag />
-        <Testimonials />
-        <Newsletter />
       </main>
 
       <Banner />
